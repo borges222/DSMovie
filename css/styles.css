@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,600&display=swap');
 
 :root {
-    --bg-gray:#ddd;
+    --bg-gray: #ddd;
     --text-gray: #4a4a4a;
-    --color-primary:#4d41ce;
-    --white: #fff
+    --color-primary: hsl(245, 59%, 53%);
+    --white: #fff;
+    --text-black: black;
 }
 
 * {
@@ -13,16 +14,22 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 
 }
 
-html, body {
+html,
+body {
     background-color: var(--bg-gray);
 }
 
-header { 
+header {
     background-color: var(--color-primary);
     color: var(--white);
     height: 60px;
@@ -49,14 +56,17 @@ nav a {
     font-weight: 400;
 }
 
-a, a:hover {
+a,
+a:hover {
     text-decoration: none;
     color: unset;
 }
+
 .dsmovie-contact-container {
     display: flex;
     align-items: center;
 }
+
 .dsmovie-contact-container {
     margin-right: 10px;
 }
@@ -66,7 +76,7 @@ a, a:hover {
 }
 
 .dsmovie-card {
-    width: 100%; 
+    width: 100%;
 }
 
 .dsmovie-card img {
@@ -75,13 +85,13 @@ a, a:hover {
 }
 
 .dsmovie-card-description {
-   background-color: var(--white);
-   padding: 10px 20px 20px 20px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
-   border-radius: 0 0 8px 8px;
+    background-color: var(--white);
+    padding: 10px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0 0 8px 8px;
 }
 
 .dsmovie-card-description h3 {
@@ -90,7 +100,8 @@ a, a:hover {
     margin-bottom: 25px;
 }
 
-.dsmovie-btn, .dsmovie-btn:hover {
+.dsmovie-btn,
+.dsmovie-btn:hover {
     width: 180px;
     height: 40px;
     background-color: var(--color-primary);
@@ -101,6 +112,7 @@ a, a:hover {
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+    border: 0;
 
 }
 
@@ -108,3 +120,44 @@ a, a:hover {
     padding: 40px 0;
     max-width: 480px;
 }
+
+.dsmovie-form-description {
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+
+}
+
+.dsmovie-form {
+    width: 100%;
+}
+
+.dsmovie-form-description h3 {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.dsmovie-form-group{
+     margin-bottom: 20px;
+}
+
+.dsmovie-form-group label {
+    font-size: 12px;
+    color: var(--text-black: black;);
+}
+
+.dsmovie-form-btn-container {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
